@@ -7,10 +7,10 @@ import '../ProductDetails/details_screen.dart';
 import 'dataDetails_model.dart';
 
 class ProductGridScreen extends StatelessWidget {
-  final List<Product> products; // إضافة قائمة المنتجات
-  final String title; // إضافة عنوان الفئة
+  final List<Product> products;
+  final String title;
 
-  ProductGridScreen({required this.products, required this.title}); // تعديل المُنشئ
+  ProductGridScreen({required this.products, required this.title});
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +25,7 @@ class ProductGridScreen extends StatelessWidget {
           mainAxisSpacing: 10.h,
           childAspectRatio: 0.75,
         ),
-        itemCount: products.length, // استخدام قائمة المنتجات الممررة
+        itemCount: products.length,
         itemBuilder: (context, index) {
           return ProductCard(product: products[index]);
         },
@@ -49,12 +49,20 @@ class ProductCard extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Image.network(
-                product.imageUrl,
-                height: 280.h,
-                width: double.infinity,
-                fit: BoxFit.cover,
-              ),
+              if (product.imageUrl != null && product.imageUrl!.isNotEmpty)
+                Image.network(
+                  product.imageUrl!,
+                  height: 280.h,
+                  width: double.infinity,
+                  fit: BoxFit.cover,
+                )
+              else if (product.imageAsset != null && product.imageAsset!.isNotEmpty)
+                Image.asset(
+                  product.imageAsset!,
+                  height: 280.h,
+                  width: double.infinity,
+                  fit: BoxFit.cover,
+                ),
               Padding(
                 padding: EdgeInsets.all(8.w),
                 child: Column(
@@ -74,7 +82,7 @@ class ProductCard extends StatelessWidget {
                     Row(
                       children: [
                         Text(
-                          '${product.newPrice.toStringAsFixed(2)} جنية',
+                          '${product.newPrice.toStringAsFixed(3)} جنية',
                           style: TextStyle(
                             color: Color(0xFF964B00),
                             fontWeight: FontWeight.bold,

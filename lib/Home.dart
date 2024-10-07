@@ -38,123 +38,126 @@ class HomeScreen extends StatelessWidget {
                 ),
               )).toList(),
             ),
-            SizedBox(height: 22.h),
-            Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
-              children: [
-                Expanded(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Text(
-                        'خصومات',
-                        style: TextStyle(
-                            fontFamily: 'arb',
-                            fontSize: 8.sp,
-                            fontWeight: FontWeight.bold
-                        ),
-                        textDirection: TextDirection.rtl,
-                      ),
-                      SizedBox(height: 11),
-                      Text(
-                        'خصم يصل إلى 30% على جميع المنتجات\n'
-                            'صالحة حتى 31 سبتمبر 2024.',
-                        style: TextStyle(
-                            fontFamily: 'arb',
-                            fontSize: 5.sp,
-                            color: Colors.grey.shade700
-                        ),
-                        textDirection: TextDirection.rtl,
-                      )
-                    ],
-                  ),
-                ),
-                Expanded(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Text(
-                        'مواعيد العمل',
-                        style: TextStyle(
-                            fontFamily: 'arb',
-                            fontSize: 8.sp,
-                            fontWeight: FontWeight.bold
-                        ),
-                        textDirection: TextDirection.rtl,
-                      ),
-                      SizedBox(height: 11),
-                      Text(
-                        'السبت - الخميس:'
-                            '\n09:00 صباحًا-08:00 مساءً'
-                            '\nالجمعة: عطلة',
-                        style: TextStyle(
-                            fontFamily: 'arb',
-                            fontSize: 5.sp,
-                            color: Colors.grey.shade700
-                        ),
-                        textDirection: TextDirection.rtl,
-                      )
-                    ],
-                  ),
-                ),
-                Expanded(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Text(
-                        'شاركنا وتواصل معنا عبر صفحاتنا \n'
-                            'على وسائل التواصل الاجتماعي',
-                        style: TextStyle(
-                            fontFamily: 'arb',
-                            fontSize: 8.sp,
-                            fontWeight: FontWeight.bold
-                        ),
-                        textDirection: TextDirection.rtl,
-                      ),
-                      SizedBox(height: 11),
-                      Wrap(
-                        spacing: 8.0,
-                        runSpacing: 4.0,
-                        children: [
-                          IconButton(
-                            onPressed: () {
-                              launch('https://www.instagram.com/YourProfile');
-                            },
-                            icon: FaIcon(
-                              FontAwesomeIcons.instagram,
-                              size: 30.0,
-                              color: Colors.pinkAccent,
-                            ),
+            SizedBox(height: 200.h),
+            Container(
+            //  color: Color(0xFF964B00),
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Expanded(
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Text(
+                          'خصومات',
+                          style: TextStyle(
+                              fontFamily: 'arb',
+                              fontSize: 8.sp,
+                              fontWeight: FontWeight.bold
                           ),
-                          IconButton(
-                            onPressed: () {
-                              launch('https://www.facebook.com/YourPage');
-                            },
-                            icon: Icon(
-                              Icons.facebook,
-                              size: 30.0,
-                              color: Colors.blue,
-                            ),
+                          textDirection: TextDirection.rtl,
+                        ),
+                        SizedBox(height: 11),
+                        Text(
+                          'خصم يصل إلى 30% على جميع المنتجات\n'
+                              'صالحة حتى 31 سبتمبر 2024.',
+                          style: TextStyle(
+                              fontFamily: 'arb',
+                              fontSize: 5.sp,
+                              color: Colors.grey.shade700
                           ),
-                          IconButton(
-                            onPressed: () {
-                              launch('https://wa.me/01007356351');
-                            },
-                            icon: FaIcon(
-                              FontAwesomeIcons.whatsapp,
-                              size: 30.0,
-                              color: Colors.green,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ],
+                          textDirection: TextDirection.rtl,
+                        )
+                      ],
+                    ),
                   ),
-                ),
-              ],
+                  Expanded(
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Text(
+                          'مواعيد العمل',
+                          style: TextStyle(
+                              fontFamily: 'arb',
+                              fontSize: 8.sp,
+                              fontWeight: FontWeight.bold
+                          ),
+                          textDirection: TextDirection.rtl,
+                        ),
+                        SizedBox(height: 11),
+                        Text(
+                          'السبت - الخميس:'
+                              '\n09:00 صباحًا-08:00 مساءً'
+                              '\nالجمعة: عطلة',
+                          style: TextStyle(
+                              fontFamily: 'arb',
+                              fontSize: 5.sp,
+                              color: Colors.grey.shade700
+                          ),
+                          textDirection: TextDirection.rtl,
+                        )
+                      ],
+                    ),
+                  ),
+                  Expanded(
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Text(
+                          'شاركنا وتواصل معنا عبر صفحاتنا \n'
+                              'على وسائل التواصل الاجتماعي',
+                          style: TextStyle(
+                              fontFamily: 'arb',
+                              fontSize: 8.sp,
+                              fontWeight: FontWeight.bold
+                          ),
+                          textDirection: TextDirection.rtl,
+                        ),
+                        SizedBox(height: 11),
+                        Wrap(
+                          spacing: 8.0,
+                          runSpacing: 4.0,
+                          children: [
+                            IconButton(
+                              onPressed: () {
+                                launch('https://www.instagram.com/riche.furniture?igsh=aGxjZDN3cjNlanE0');
+                              },
+                              icon: FaIcon(
+                                FontAwesomeIcons.instagram,
+                                size: 30.0,
+                                color: Colors.pinkAccent,
+                              ),
+                            ),
+                            IconButton(
+                              onPressed: () {
+                                launch('https://www.facebook.com/blacknaig?mibextid=LQQJ4d');
+                              },
+                              icon: Icon(
+                                Icons.facebook,
+                                size: 30.0,
+                                color: Colors.blue,
+                              ),
+                            ),
+                            IconButton(
+                              onPressed: () {
+                                launch('https://wa.me/01007356351');
+                              },
+                              icon: FaIcon(
+                                FontAwesomeIcons.whatsapp,
+                                size: 30.0,
+                                color: Colors.green,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
             ),
-            SizedBox(height: 222),
+            SizedBox(height: 222.h),
           ],
         ),
       ),

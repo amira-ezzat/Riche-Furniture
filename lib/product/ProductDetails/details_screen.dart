@@ -3,14 +3,13 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../../settings/Bar.dart';
-import '../ProductData/dataDetails_model.dart'; // استيراد مكتبة url_launcher
+import '../ProductData/dataDetails_model.dart';
 
 class ProductDetailScreen extends StatelessWidget {
   final Product product;
 
   ProductDetailScreen({required this.product});
 
-  // دالة لفتح الواتس آب مع رقم محدد
   void _openWhatsApp(String phoneNumber) async {
     final whatsappUrl = 'https://wa.me/$phoneNumber';
     if (await canLaunch(whatsappUrl)) {
@@ -67,7 +66,7 @@ class ProductDetailScreen extends StatelessWidget {
                         width: 150,
                         child: TextButton(
                           onPressed: () {
-                            _openWhatsApp('201007356351'); // رقم الهاتف الذي تريد فتح الواتس آب له
+                            _openWhatsApp('201007356351');
                           },
                           child: Text(
                             'اشتري الان',
@@ -82,12 +81,20 @@ class ProductDetailScreen extends StatelessWidget {
                     ],
                   ),
                   SizedBox(width: 33.h),
-                  Image.network(
-                    product.imageUrl,
-                    width: 200.w,
-                    height: 500.h,
-                    fit: BoxFit.cover,
-                  ),
+                  if (product.imageUrl != null && product.imageUrl!.isNotEmpty)
+                    Image.network(
+                      product.imageUrl!,
+                      height: 500.h,
+                      width:200.w,
+                      fit: BoxFit.cover,
+                    )
+                  else if (product.imageAsset != null && product.imageAsset!.isNotEmpty)
+                    Image.asset(
+                      product.imageAsset!,
+                      height: 500.h,
+                      width:200.w,
+                      fit: BoxFit.cover,
+                    )
                 ],
               ),
               SizedBox(height: 15.h),

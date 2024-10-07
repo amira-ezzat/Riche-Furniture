@@ -3,14 +3,16 @@
 class Product {
   final String name;
   final double newPrice;
-  final String imageUrl;
-  final String description; // تفاصيل إضافية
+  final String? imageUrl;
+  final String ?imageAsset;
+  final String description;
 
 
   Product({
     required this.name,
     required this.newPrice,
-    required this.imageUrl,
+     this.imageUrl,
+     this.imageAsset,
     required this.description,
 
   });

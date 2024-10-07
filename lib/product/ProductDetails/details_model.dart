@@ -2,7 +2,7 @@ import 'package:project_1/product/ProductData/dataDetails_model.dart';
 final List<Product> bedroomProducts = [
   Product(
     name: 'غرفة نوم طوكيو',
-    newPrice: 46.990,
+    newPrice: 25.000,
     imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/products/tokyo-master_1800x1800.jpg?v=1647010896',
     description:  '• سرير\n'
         '• دولاب\n'
@@ -26,7 +26,7 @@ final List<Product> bedroomProducts = [
   ),
   Product(
     name: 'غرفة نوم بولو',
-    newPrice: 44.990,
+    newPrice: 20.200,
     imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/files/6_a1e0be89-9437-4a13-a05e-5b8a02c1fd6c_1800x1800.jpg?v=1714558583',
     description: '• سرير 160 سم أو سرير 180 سم\n'
         '• دولاب جرار\n'
@@ -53,7 +53,7 @@ final List<Product> bedroomProducts = [
   ),
   Product(
     name: 'غرفة نوم نيو ميلانو',
-    newPrice: 54.990,
+    newPrice: 30.390,
     imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/files/85632096d3fc46da4dbf15e71b696da4_1800x1800.jpg?v=1699888668',
     description:'• سرير\n'
         '• دولاب\n'
@@ -76,7 +76,7 @@ final List<Product> bedroomProducts = [
   ),
   Product(
     name: 'غرفة نوم يارن',
-    newPrice: 40.690,
+    newPrice: 20.000,
     imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/products/1_506eb3cd-4c42-47bd-b24b-db9cab668afd_1800x1800.jpg?v=1612941841',
     description:   '• سرير\n'
         '• دولاب\n'
@@ -100,7 +100,7 @@ final List<Product> bedroomProducts = [
   ),
   Product(
     name: 'غرفة نوم موسكو',
-    newPrice:54.990 ,
+    newPrice:18.990 ,
     imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/files/2_6_1800x1800.jpg?v=1721207066',
     description: '• سرير\n'
         '• دولاب\n'
@@ -124,7 +124,7 @@ final List<Product> bedroomProducts = [
   ),
   Product(
       name: 'غرفة نوم نيو جولد',
-      newPrice:65.990 ,
+      newPrice:30.290 ,
       imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/products/2_4bca0375-e321-4b1b-8060-b8572dad919e_1800x1800.jpg?v=1678022172',
       description: '• سرير\n'
           '• دولاب\n'
@@ -151,7 +151,7 @@ final List<Product> bedroomProducts = [
   ),
   Product(
       name: 'غرفة نوم ليندا',
-      newPrice: 49.990,
+      newPrice: 20.000,
       imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/products/1_e4f47af2-4cca-4be6-94e5-916875867fcb_1800x1800.jpg?v=1691504347',
       description:  '• سرير\n'
           '• دولاب\n'
@@ -173,7 +173,7 @@ final List<Product> bedroomProducts = [
   ),
   Product(
       name: 'غرفة نوم صوفا',
-      newPrice: 70.990,
+      newPrice: 30.990,
       imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/files/1_ab298b0e-6cf7-4000-96fb-63c61c29854e_1800x1800.jpg?v=1710243059',
       description: '• سرير\n'
           '• دولاب\n'
@@ -199,7 +199,7 @@ final List<Product> bedroomProducts = [
 final List<Product> kidsRoomProducts = [
   Product(
     name: 'غرفة اطفال تيفاني',
-    newPrice: 47.880,
+    newPrice: 18.580,
     imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/products/Kabbani-bedrom-Tefani_82f5f1ed-6284-4d65-aab0-26a7b8dbb557_1800x1800.jpg?v=1637696862',
     description:   'سرير\n'
         'دولاب\n'
@@ -225,7 +225,7 @@ final List<Product> kidsRoomProducts = [
   ),
   Product(
     name: 'غرفة اطفال يارن ',
-    newPrice: 36.910,
+    newPrice: 17.910,
     imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/products/yarn_1800x1800.jpg?v=1620806955',
     description: 'سرير\n'
         'دولاب\n'
@@ -251,7 +251,7 @@ final List<Product> kidsRoomProducts = [
   ),
   Product(
     name: 'غرفة اطفال تيفاني دورين',
-    newPrice: 63.220,
+    newPrice: 20.220,
     imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/files/2_4_1800x1800.jpg?v=1721050136',
     description:'140 سم دولاب مفصلي\n'
         'مكتب بـ رف\n'
@@ -275,7 +275,7 @@ final List<Product> kidsRoomProducts = [
   ),
   Product(
     name: 'غرفة كابرس ',
-    newPrice: 23.990,
+    newPrice: 15.990,
     imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/files/19_7a7509a6-651d-45d9-8414-74bd41f33a46_1800x1800.jpg?v=1695475254',
     description:   'سرير\n'
         'دولاب\n'
@@ -300,7 +300,7 @@ final List<Product> kidsRoomProducts = [
   ),
   Product(
     name: 'غرفة اطفال سيتي',
-    newPrice: 28.150,
+    newPrice: 16.150,
     imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/files/4_4381dbfd-b828-45bd-8472-542888947e95_1800x1800.jpg?v=1723285709',
     description:  'عدد 2 سرير\n'
         'دولاب 120 سم\n'
@@ -324,7 +324,7 @@ final List<Product> kidsRoomProducts = [
   ),
   Product(
     name: 'غرفة اطفال مقبض',
-    newPrice:35.704,
+    newPrice:19.300,
     imageUrl: 'https://wuilt-assets-v2-dev.s3.amazonaws.com/cl2bca2p801du396zt1z5a24s_IMG-20210928-WA0052.jpg',
     description: '\nالغرفة مُصنعة بالكامل من الخامات الطبيعية 100% حيث أن'
         ' القوائم من الأخشاب الزان الروماني الأحمر، والمسحطات \n'
@@ -340,7 +340,7 @@ final List<Product> kidsRoomProducts = [
   ),
   Product(
       name: 'غرفه اطفال-SAM1',
-      newPrice:41.800 ,
+      newPrice:20.000 ,
       imageUrl: 'https://chichomz.com/cdn/shop/files/C2_bf16c0fc-f949-40cb-bb1b-1ec3e851581f.jpg?v=1718026208&width=1100',
       description: 'عدد القطع:4 (2سرير + دولاب + كومود)\n\n'
           'السرير:\n'
@@ -360,7 +360,7 @@ final List<Product> kidsRoomProducts = [
   ),
   Product(
       name: 'غرفه اطفال سما',
-      newPrice:44.500 ,
+      newPrice:19.000 ,
       imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/products/Sama-100_1800x1800.jpg?v=1694685328',
       description: 'عدد القطع: سرير + دولاب + كمود + تسريحة + مرايا\n\n'
           'المواصفات:\n\n'
@@ -383,7 +383,7 @@ final List<Product> kidsRoomProducts = [
 final List<Product> tablesProducts = [
   Product(
     name: 'ترابيزة تليفزيون ',
-    newPrice: 3.490,
+    newPrice: 2.000,
     imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/products/gtv120L_1800x1800.jpg?v=1618990375',
     description:'تحتوي على أدراج لوضع الأجهزة الكهربائية\n'
         'مناسبة لمساحات التليفزيون الكبيرة\n'
@@ -401,7 +401,7 @@ final List<Product> tablesProducts = [
   ),
   Product(
     name: 'وحدة تلفزيون أتلانتا',
-    newPrice: 15.990,
+    newPrice: 3.000,
     imageUrl:'https://www.kabbanifurniture.com/cdn/shop/files/6F4A9355-copy_1800x1800.jpg?v=1711456834',
     description:
     'تحتوي على أدراج ودرف لوضع الأجهزة الكهربائية\n'
@@ -418,7 +418,7 @@ final List<Product> tablesProducts = [
   ),
   Product(
     name: 'ترابيزة تليفزيون',
-    newPrice: 8.890,
+    newPrice: 2.390,
     imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/files/GTV4_1800x1800.jpg?v=1711184547',
     description: '• تحتوي علي أدراج لوضع الاجهزة الكهربية\n'
         '• مناسبة لمساحات التليفزيون الكبيرة\n'
@@ -433,7 +433,7 @@ final List<Product> tablesProducts = [
   ),
   Product(
     name: 'ترابيزة وسط بابلي',
-    newPrice: 15.490,
+    newPrice: 2.490,
     imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/products/da97980a50cbc3528faeb66e88f94066_1800x1800.jpg?v=1711276554',
     description:  '• ستانليس بيور (معدن) لون ذهبي\n'
         '• طلاء PVD مقاوم للصدأ\n'
@@ -441,7 +441,7 @@ final List<Product> tablesProducts = [
   ),
   Product(
     name: 'ترابيزة وسط G1',
-    newPrice: 1.990,
+    newPrice: 900,
     imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/products/G1-middle-table-kabbani-_1_1800x1800.jpg?v=1584194082',
     description:'• MDF\n'
         '• طلاء عالي الجودة\n\n'
@@ -454,7 +454,7 @@ final List<Product> tablesProducts = [
   ),
   Product(
       name: 'وحدة تلفزيون سفير',
-      newPrice: 15.990,
+      newPrice: 2.990,
       imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/files/5_830eac8b-742a-4201-824b-0f1628eaed58_1800x1800.jpg?v=1719584178',
       description: '• تحتوي على أدراج ودرف لوضع الأجهزة الكهربائية\n\n'
           'الخامة الأساسية\n'
@@ -470,7 +470,7 @@ final List<Product> tablesProducts = [
   ),
   Product(
       name: 'ترابيزة تليفزيون',
-      newPrice: 4.490,
+      newPrice: 1.690,
       imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/products/GTV160-L_1800x1800.jpg?v=1618990374',
       description:  'تحتوي على أدراج لوضع الأجهزة الكهربائية\n'
           'مناسبة لمساحات التلفزيون الكبيرة\n'
@@ -488,7 +488,7 @@ final List<Product> tablesProducts = [
   ),
   Product(
       name: 'ترابيزة وسط T-16',
-      newPrice: 16.490,
+      newPrice: 3.590,
       imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/files/2_02b4b70d-3ee1-4155-b713-7c4e261cc007_1800x1800.jpg?v=1695571050',
       description: '• مكون من\n'
           '  • ترابيزه وسط\n'
@@ -508,7 +508,7 @@ final List<Product> tablesProducts = [
 final List<Product> tableshoosProducts = [
   Product(
     name: 'جزامة SHK-2',
-    newPrice: 6.990,
+    newPrice: 1.990,
     imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/products/6_2705279c-f2ad-4554-a6f2-f2adc4c4191e_1800x1800.jpg?v=1668603005',
     description:'. ضلف كبيرة تسع لعدد كبير من الاحذية\n'
         '. إكسسوارات معدنية ذات جوده عالية\n'
@@ -525,7 +525,7 @@ final List<Product> tableshoosProducts = [
   ),
   Product(
     name: 'جزامة ستار',
-    newPrice: 7.490,
+    newPrice: 2.190,
     imageUrl:'https://www.kabbanifurniture.com/cdn/shop/products/3_c91ea627-626d-4d61-b5af-a4cba6b93c10_1800x1800.jpg?v=1668602922',
     description: '• تحتوى على درج للأحتفاظ بالأغراض المختلفة\n'
         '• ضلف كبيرة تسع لعدد كبير من الاحذية\n'
@@ -538,7 +538,7 @@ final List<Product> tableshoosProducts = [
   ),
   Product(
     name: 'جزامة بورت شابوه',
-    newPrice: 11.990,
+    newPrice: 2.990,
     imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/products/KSH-601_1800x1800.jpg?v=1679052425',
     description: 'يحتوى على درج للأحتفاظ بالأغراض المختلفة\n'
         '3 ضلفة تسع لعدد كبير من الاحذية\n'
@@ -552,7 +552,7 @@ final List<Product> tableshoosProducts = [
   ),
   Product(
     name: 'جزامة بورت شابوه',
-    newPrice: 10.990,
+    newPrice: 3.990,
     imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/products/1_38acf26b-97ec-4da4-a681-ef1243b00bcc_1800x1800.jpg?v=1609500709',
     description:  'درج للأحتفاظ بالأغراض المختلفة\n'
         'ضلفة كبيرة تسع لعدد كبير من الاحذية\n'
@@ -562,7 +562,7 @@ final List<Product> tableshoosProducts = [
   ),
   Product(
     name: 'جزامة بورت شابوه',
-    newPrice: 9.990,
+    newPrice: 2.990,
     imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/products/3_084d635c-659c-4475-97b4-79a7a4ffb8d5_1800x1800.jpg?v=1609500708',
     description:'درج للأحتفاظ بالأغراض المختلفة\n'
         'ضلف كبيرة تسع لعدد كبير من الاحذية\n'
@@ -573,7 +573,7 @@ final List<Product> tableshoosProducts = [
   ),
   Product(
     name: 'جزامة بورت شابوه',
-    newPrice: 13.990,
+    newPrice: 3.990,
     imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/products/KSH-609_1800x1800.jpg?v=1659019441',
     description: 'ضلف كبيرة تسع لعدد كبير من الأحذية\n'
         'درج للتخزين\n'
@@ -583,7 +583,7 @@ final List<Product> tableshoosProducts = [
   ),
   Product(
     name: 'جزامة تيفاني دورين',
-    newPrice: 12.990,
+    newPrice: 4.990,
     imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/files/9c2d434f4c730ea1d87e460efc02792c_1800x1800.jpg?v=1709480267',
     description:  'ضلف كبيرة تسع لعدد كبير من الأحذية\n'
         'بها درجين للتخزين\n'
@@ -611,7 +611,7 @@ final List<Product> tableshoosProducts = [
 final List<Product> livingroomProducts = [
   Product(
     name: 'أنتريه ماكس',
-    newPrice: 26.990,
+    newPrice: 12.990,
     imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/files/2.._1800x1800.jpg?v=1725362367',
     description: 'كنبة ثلاثية\n'
         'كنبة ثنائية\n'
@@ -630,7 +630,7 @@ final List<Product> livingroomProducts = [
   ),
   Product(
       name: 'أنتريه كازا',
-      newPrice: 32.990,
+      newPrice: 11.990,
       imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/files/1_4bcc3262-34e8-41ff-adec-67300721de60_1800x1800.jpg?v=1715864011',
       description:'عدد 2 كنبة ثلاثية\n'
           'فوتيه\n\n'
@@ -651,7 +651,7 @@ final List<Product> livingroomProducts = [
   ),
   Product(
       name: 'صالون لوريان',
-      newPrice: 29.990,
+      newPrice: 15.200,
       imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/files/3_1_0cf725ea-a702-4ec5-8b1f-5f686cb9fa39_1800x1800.jpg?v=1716815882',
       description:  'كنبة ثنائية\n'
           'عدد 2 فوتيه\n'
@@ -672,7 +672,7 @@ final List<Product> livingroomProducts = [
   ),
   Product(
       name: 'أنتريه سكاي',
-      newPrice: 29.990,
+      newPrice: 12.220,
       imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/files/3_cb5a0fd7-a141-4fc2-8cc4-523961002a10_1800x1800.jpg?v=1701103088',
       description:'كنبة ثلاثية\n'
           'كنبة ثنائية\n'
@@ -691,7 +691,7 @@ final List<Product> livingroomProducts = [
   ),
   Product(
       name: 'أنتريه كوبا',
-      newPrice:43.990 ,
+      newPrice:9.990 ,
       imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/files/05_1800x1800.jpg?v=1700757948',
       description: 'عدد 2 كنبة ثلاثية\n'
           'فوتيه\n\n'
@@ -711,7 +711,7 @@ final List<Product> livingroomProducts = [
   ),
   Product(
       name: 'ركنة ڤيرا',
-      newPrice:19.990 ,
+      newPrice:10.990 ,
       imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/files/4_6_1800x1800.jpg?v=1722778595',
       description:  'خشب الزان الطبيعي\n'
           'قماش كتان عالي الجودة\n'
@@ -725,7 +725,7 @@ final List<Product> livingroomProducts = [
   ),
   Product(
       name: 'أنتريه أوبرا',
-      newPrice:39.990 ,
+      newPrice:13.990 ,
       imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/files/4_27f046a6-d4de-4b38-9cfb-0c4a657a6bd8_1800x1800.jpg?v=1710240473',
       description:'كنبة ثلاثية\n'
           'كنبة ثنائية\n'
@@ -746,7 +746,7 @@ final List<Product> livingroomProducts = [
   ),
   Product(
       name: ' ركنة نايس',
-      newPrice: 29.990,
+      newPrice: 10.990,
       imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/products/15be494b66891c9c42b928f0f7f70cca_1800x1800.jpg?v=1678023747',
       description:'خشب الزان الطبيعي\n'
           'قماش كتان\n'
@@ -766,7 +766,7 @@ final List<Product> livingroomProducts = [
 final List<Product> diningProducts = [
   Product(
     name: 'غرفة سفرة مرمر',
-    newPrice:59.990 ,
+    newPrice:10.000 ,
     imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/files/3_d7aa2af0-a255-4dd9-a917-ed68390a24f6_1800x1800.jpg?v=1721906914',
     description: 'ترابيزة سفرة\n'
         'عدد 6 كراسي\n'
@@ -788,7 +788,7 @@ final List<Product> diningProducts = [
   ),
   Product(
       name: 'غرفة سفرة أتلانتا',
-      newPrice: 102.990,
+      newPrice: 10.990,
       imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/files/11_b5804ca5-dcc9-4928-b648-f3e9921a67ba_1800x1800.jpg?v=1695137703',
       description:'ترابيزة سفرة\n'
           '6 كراسي\n'
@@ -813,7 +813,7 @@ final List<Product> diningProducts = [
   ),
   Product(
       name: 'غرفة سفرة باريس ',
-      newPrice: 37.990,
+      newPrice: 8.190,
       imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/products/Paris_1800x1800.jpg?v=1658914447',
       description:'ترابيزة سفرة\n'
           'عدد 6 كراسي\n'
@@ -834,7 +834,7 @@ final List<Product> diningProducts = [
   ),
   Product(
       name: 'غرفة سفرة ريو',
-      newPrice: 54.990,
+      newPrice: 9.500,
       imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/files/Rio_1800x1800.jpg?v=1699347404',
       description: 'ترابيزة سفرة\n'
           'عدد 6 كراسي\n'
@@ -856,7 +856,7 @@ final List<Product> diningProducts = [
   ),
   Product(
     name: 'ترابيزة سفرة T12 ',
-    newPrice: 21.990,
+    newPrice: 6.990,
     imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/products/Kabbani-dining-New-t12_1800x1800.jpg?v=1633440497',
     description:   'ترابيزة سفرة\n'
         'عدد 6 كراسي\n'
@@ -876,7 +876,7 @@ final List<Product> diningProducts = [
   ),
   Product(
     name: 'غرفة سفرة لاتيه',
-    newPrice:53.990,
+    newPrice:7.200,
     imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/files/6_25155fa2-1d18-4b0f-a95d-043933bde038_1800x1800.jpg?v=1718089764',
     description: 'ترابيزة سفرة\n'
         'عدد 6 كراسي\n'
@@ -899,7 +899,7 @@ final List<Product> diningProducts = [
   ),
   Product(
     name: 'غرفة سفرة مرمر',
-    newPrice:59.990,
+    newPrice:9.000,
     imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/files/3_d7aa2af0-a255-4dd9-a917-ed68390a24f6_1800x1800.jpg?v=1721906914',
     description:  'ترابيزة سفرة\n'
         'عدد 6 كراسي\n'
@@ -922,7 +922,7 @@ final List<Product> diningProducts = [
   ),
   Product(
     name: 'غرفة سفرة بلاك',
-    newPrice: 84.940,
+    newPrice: 9.240,
     imageUrl: 'https://www.kabbanifurniture.com/cdn/shop/products/45_1800x1800.jpg?v=1681814595',
     description:   'ترابيزة سفرة\n'
         'عدد 6 كراسي\n'
@@ -943,3 +943,137 @@ final List<Product> diningProducts = [
         'متاح تنفيذ مقاسات أخرى:\n',
   ),
 ];
+final List<Product> kitchenProducts = [
+  Product(
+    name: 'مطبخ خشبي مودرن',
+    newPrice:33.990 ,
+    imageAsset: 'assets/image/1.jpg',
+    description:  'ميزي بهذا المطبخ الخشبي بتصميم مودرن يعطي إيحاء بالفخامة\n'
+        'والبساطة مع خشب شيبورد معالج مقاوم للماء والعفن والأسطح \n'
+        'المكونة من رخام صناعي فاخر مقاوم للتبقع والكسر.\n\n'
+        'المواصفات:\n'
+        '• عمق الوحدات السفلية: 60 سم\n'
+        '• عمق الوحدات العلوية: 30 سم\n'
+        '• المسافة بين الوحدات: 60 سم\n'
+        '• القياسات: حسب المساحة المطلوبة\n'
+        '• خامة الوحدات: خشب شيبورد\n'
+        '• خامة الأسطح: رخام صناعي أمريكي أرفاف جرانيت\n'
+        '• عدد الوحدات: حسب المساحة وعدد الأمتار والتصميم',
+  ),
+  Product(
+    name: 'مطبخ خشبي مودرن',
+    newPrice:33.990 ,
+    imageAsset: 'assets/image/4.jpg',
+    description:
+        'تتميز هذه النوعية من المطابخ بمقاومتها العالية للرطوبة والحرارة والخدوش، كما أنها سهلة التنظيف والصيانة.\n'
+        'تتكون هذه المطابخ من لوحات مغلفة بطبقة من البلاستيك المقاوم للحرارة والرطوبة، ويتم تثبيت هذه اللوحات \n'
+        'وبفضل هذه التقنية، يمكن الحصول على هذه المطابخ بتصاميم مختلفة وألوان متعددة على هيكل معدني قوي.\n'
+        'المواصفات:\n'
+        '• عمق الوحدات السفلية: 60 سم\n'
+        '• عمق الوحدات العلوية: 30 سم\n'
+        '• المسافة بين الوحدات: 60 سم\n'
+        '• القياسات: حسب المساحة المطلوبة\n'
+        '• خامة الأسطح: رخام صناعي أمريكي أرفاف جرانيت\n'
+        '• عدد الوحدات: حسب المساحة وعدد الأمتار والتصميم',
+  ),
+  Product(
+    name: 'مطبخ خشبي مودرن',
+    newPrice:33.990 ,
+    imageAsset: 'assets/image/5.jpg',
+    description:
+    'تتميز هذه النوعية من المطابخ بمقاومتها العالية للرطوبة والحرارة والخدوش، كما أنها سهلة التنظيف والصيانة.\n'
+        'تتكون هذه المطابخ من لوحات مغلفة بطبقة من البلاستيك المقاوم للحرارة والرطوبة، ويتم تثبيت هذه اللوحات \n'
+        'وبفضل هذه التقنية، يمكن الحصول على هذه المطابخ بتصاميم مختلفة وألوان متعددة على هيكل معدني قوي.\n'
+        'المواصفات:\n'
+        '• عمق الوحدات السفلية: 60 سم\n'
+        '• عمق الوحدات العلوية: 30 سم\n'
+        '• المسافة بين الوحدات: 60 سم\n'
+        '• القياسات: حسب المساحة المطلوبة\n'
+        '• خامة الأسطح: رخام صناعي أمريكي أرفاف جرانيت\n'
+        '• عدد الوحدات: حسب المساحة وعدد الأمتار والتصميم',
+  ),
+  Product(
+    name: 'مطبخ خشبي مودرن',
+    newPrice:33.990 ,
+    imageAsset: 'assets/image/2.jpg',
+    description:
+    'تتميز هذه النوعية من المطابخ بمقاومتها العالية للرطوبة والحرارة والخدوش، كما أنها سهلة التنظيف والصيانة.\n'
+        'تتكون هذه المطابخ من لوحات مغلفة بطبقة من البلاستيك المقاوم للحرارة والرطوبة، ويتم تثبيت هذه اللوحات \n'
+        'وبفضل هذه التقنية، يمكن الحصول على هذه المطابخ بتصاميم مختلفة وألوان متعددة على هيكل معدني قوي.\n'
+        'المواصفات:\n'
+        '• عمق الوحدات السفلية: 60 سم\n'
+        '• عمق الوحدات العلوية: 30 سم\n'
+        '• المسافة بين الوحدات: 60 سم\n'
+        '• القياسات: حسب المساحة المطلوبة\n'
+        '• خامة الأسطح: رخام صناعي أمريكي أرفاف جرانيت\n'
+        '• عدد الوحدات: حسب المساحة وعدد الأمتار والتصميم',
+  ),
+  Product(
+    name: 'مطبخ خشبي مودرن',
+    newPrice:30.000 ,
+    imageAsset: 'assets/image/6.jpeg',
+    description:
+    'تتميز هذه النوعية من المطابخ بمقاومتها العالية للرطوبة والحرارة والخدوش، كما أنها سهلة التنظيف والصيانة.\n'
+        'تتكون هذه المطابخ من لوحات مغلفة بطبقة من البلاستيك المقاوم للحرارة والرطوبة، ويتم تثبيت هذه اللوحات \n'
+        'وبفضل هذه التقنية، يمكن الحصول على هذه المطابخ بتصاميم مختلفة وألوان متعددة على هيكل معدني قوي.\n'
+        'المواصفات:\n'
+        '• عمق الوحدات السفلية: 60 سم\n'
+        '• عمق الوحدات العلوية: 30 سم\n'
+        '• المسافة بين الوحدات: 60 سم\n'
+        '• القياسات: حسب المساحة المطلوبة\n'
+        '• خامة الأسطح: رخام صناعي أمريكي أرفاف جرانيت\n'
+        '• عدد الوحدات: حسب المساحة وعدد الأمتار والتصميم',
+  ),
+  Product(
+    name: 'مطبخ صاج مودرن',
+    newPrice:33.000 ,
+    imageAsset: 'assets/image/3.png',
+    description: 'فصلي مطبخ عملي يدعم الاستدامة مع حداثة\n'
+        'التصميم المصنوع من الصاج المقاوم للماء والصدأ\n'
+        'مع رخام صناعي فاخر لامع مقاوم للبقع والكسر \n'
+        ' وإضافة الزجاج كلمسة جمالية وكسر الرتابة.\n\n'
+        'المواصفات:\n'
+        '• عمق الوحدات السفلية: 60 سم\n'
+        '• عمق الوحدات العلوية: 30 سم\n'
+        '• المسافة بين الوحدات: 60 سم\n'
+        '• القياسات: حسب المساحة المطلوبة\n'
+        '• خامة الوحدات: صاج\n'
+        '• خامة الأسطح: رخام صناعي أمريكي أرفاف جرانيت\n'
+        '• عدد الوحدات: حسب المساحة وعدد الأمتار والتصميم',
+  ),
+  Product(
+    name: 'مطبخ خشبي مودرن',
+    newPrice:29.990 ,
+    imageAsset: 'assets/image/7.jpeg',
+    description:
+    'تتميز هذه النوعية من المطابخ بمقاومتها العالية للرطوبة والحرارة والخدوش، كما أنها سهلة التنظيف والصيانة.\n'
+        'تتكون هذه المطابخ من لوحات مغلفة بطبقة من البلاستيك المقاوم للحرارة والرطوبة، ويتم تثبيت هذه اللوحات \n'
+        'وبفضل هذه التقنية، يمكن الحصول على هذه المطابخ بتصاميم مختلفة وألوان متعددة على هيكل معدني قوي.\n'
+        'المواصفات:\n'
+        '• عمق الوحدات السفلية: 60 سم\n'
+        '• عمق الوحدات العلوية: 30 سم\n'
+        '• المسافة بين الوحدات: 60 سم\n'
+        '• القياسات: حسب المساحة المطلوبة\n'
+        '• خامة الأسطح: رخام صناعي أمريكي أرفاف جرانيت\n'
+        '• عدد الوحدات: حسب المساحة وعدد الأمتار والتصميم',
+  ),
+  Product(
+    name: 'مطبخ خشبي مودرن',
+    newPrice:30.990 ,
+    imageAsset: 'assets/image/8.jpeg',
+    description:
+    'تتميز هذه النوعية من المطابخ بمقاومتها العالية للرطوبة والحرارة والخدوش، كما أنها سهلة التنظيف والصيانة.\n'
+        'تتكون هذه المطابخ من لوحات مغلفة بطبقة من البلاستيك المقاوم للحرارة والرطوبة، ويتم تثبيت هذه اللوحات \n'
+        'وبفضل هذه التقنية، يمكن الحصول على هذه المطابخ بتصاميم مختلفة وألوان متعددة على هيكل معدني قوي.\n'
+        'المواصفات:\n'
+        '• عمق الوحدات السفلية: 60 سم\n'
+        '• عمق الوحدات العلوية: 30 سم\n'
+        '• المسافة بين الوحدات: 60 سم\n'
+        '• القياسات: حسب المساحة المطلوبة\n'
+        '• خامة الأسطح: رخام صناعي أمريكي أرفاف جرانيت\n'
+        '• عدد الوحدات: حسب المساحة وعدد الأمتار والتصميم',
+  ),
+
+
+];
+

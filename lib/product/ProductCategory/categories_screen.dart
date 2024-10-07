@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:project_1/product/ProductData/dataDetails_model.dart';
 import 'package:project_1/settings/Bar.dart';
 
@@ -9,16 +8,34 @@ import '../ProductDetails/details_model.dart';
 class FurnitureCategoriesPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    var screenWidth = MediaQuery.of(context).size.width;
+    var screenHeight = MediaQuery.of(context).size.height;
+
+    int crossAxisCount;
+    if (screenWidth > 1200) {
+      crossAxisCount = 4;
+    } else if (screenWidth > 800) {
+      crossAxisCount = 3;
+    } else if (screenWidth > 600) {
+      crossAxisCount = 2;
+    } else {
+      crossAxisCount = 1;
+    }
+
+    var crossAxisSpacing = screenWidth * 0.02;
+    var mainAxisSpacing = screenHeight * 0.02;
+   // var aspectRatio = screenHeight / screenWidth * 1.8;
+
     return Scaffold(
       backgroundColor: Colors.white,
-      appBar:CustomAppBar(),
+      appBar: CustomAppBar(),
       body: Padding(
-        padding: EdgeInsets.all(8.w),
+        padding: EdgeInsets.all(screenWidth * 0.02),
         child: GridView.count(
-          crossAxisCount: 4,
-          crossAxisSpacing: 10.w,
-          mainAxisSpacing: 10.h,
-          childAspectRatio: 0.75,
+          crossAxisCount: crossAxisCount,
+          crossAxisSpacing: crossAxisSpacing,
+          mainAxisSpacing: mainAxisSpacing,
+          childAspectRatio: 0.8,
           children: [
             FurnitureCard(
               title: 'غرف نوم',
@@ -41,7 +58,7 @@ class FurnitureCategoriesPage extends StatelessWidget {
               products: livingroomProducts, // Pass dining products
             ),
             FurnitureCard(
-              title: ' ترابيزات\n',
+              title: 'ترابيزات',
               image: 'https://www.kabbanifurniture.com/cdn/shop/files/12_8f31669d-3826-4032-ae5f-865861c10c85_1800x1800.jpg?v=1720947645',
               products: tablesProducts, // Pass dining products
             ),
@@ -49,6 +66,11 @@ class FurnitureCategoriesPage extends StatelessWidget {
               title: 'حافظات احذية',
               image: 'https://www.kabbanifurniture.com/cdn/shop/products/KSH-601_1800x1800.jpg?v=1679052425',
               products: tableshoosProducts, // Pass dining products
+            ),
+            FurnitureCard(
+              title: 'مطابخ',
+              image: 'https://cdn.salla.sa/XXlKq/12071c85-909c-484f-aeaf-abb9a8ad1dcf-1000x718.87966804979-lJAq0TSRdbMlAc1lWc7aNoh4bdwLywzpmcMxeiFc.png',
+              products: kitchenProducts, // Pass dining products
             ),
             // Add more categories...
           ],
@@ -71,6 +93,9 @@ class FurnitureCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var screenWidth = MediaQuery.of(context).size.width;
+    var screenHeight = MediaQuery.of(context).size.height;
+
     return GestureDetector(
       onTap: () {
         Navigator.push(
@@ -83,67 +108,71 @@ class FurnitureCard extends StatelessWidget {
           ),
         );
       },
-      child: SizedBox(
-        height: 150.h,
+      child: AspectRatio(
+        aspectRatio: 2.0,
         child: Card(
           color: Colors.white,
           elevation: 5,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(10.r),
+            borderRadius: BorderRadius.circular(screenWidth * 0.01),
           ),
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               ClipRRect(
-                borderRadius: BorderRadius.vertical(top: Radius.circular(10.r)),
+                borderRadius: BorderRadius.vertical(top: Radius.circular(screenWidth * 0.01)),
                 child: Image.network(
                   image,
                   fit: BoxFit.cover,
-                  height: 280.h,
+                  height: screenHeight * 0.4,
                   width: double.infinity,
                 ),
               ),
-              Row(
-                children: [
-                  Padding(
-                    padding: EdgeInsets.all(8.w),
-                    child: Text(
+              SizedBox(height: screenHeight *0.01,),
+              Padding(
+                padding: EdgeInsets.all(screenWidth * 0.01),
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Text(
                       title,
                       style: TextStyle(
                         fontFamily: 'arb',
-                        fontSize: 6.sp,
+                        fontSize: screenWidth * 0.02,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                  ),
-                  Container(
-                    decoration: BoxDecoration(
-                      color: Color(0xFF964B00),
-                      borderRadius: BorderRadius.circular(8.0),
-                    ),
-                    width: 22.w,
-                    child: TextButton(
-                      onPressed: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => ProductGridScreen(
-                              products: products,
-                              title: title,
+                    SizedBox(width: screenWidth * 0.02),
+                    Container(
+                      decoration: BoxDecoration(
+                        color: Color(0xFF964B00),
+                        borderRadius: BorderRadius.circular(screenWidth * 0.005),
+                      ),
+                      width: screenWidth * 0.07,
+                      child: TextButton(
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => ProductGridScreen(
+                                products: products,
+                                title: title,
+                              ),
                             ),
+                          );
+                        },
+                        child: Text(
+                          'المزيد',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontFamily: 'arb',
+                            fontSize: screenWidth * 0.01,
                           ),
-                        );
-                      },
-                      child: Text(
-                        'المزيد',
-                        style: TextStyle(
-                          color: Colors.white,
-                            fontFamily: 'arb'
-
                         ),
                       ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ],
           ),
