@@ -61,7 +61,7 @@ class HomeScreen extends StatelessWidget {
                         SizedBox(height: 11),
                         Text(
                           'خصم يصل إلى 30% على جميع المنتجات\n'
-                              'صالحة حتى 31 سبتمبر 2024.',
+                              'صالحة حتى 30 سبتمبر 2024.',
                           style: TextStyle(
                               fontFamily: 'arb',
                               fontSize: 5.sp,
@@ -158,6 +158,23 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
             SizedBox(height: 222.h),
+            Container(
+              color: Color(0xFF964B00),
+              width: double.infinity,
+              height: 88.h,
+              child: Center(  // ضع النص داخل Center
+                child: Text(
+                  'جميع الحقوق محفوظة © Rich Furniture 2024',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontFamily: 'arb',
+                    fontWeight: FontWeight.bold,
+                  ),
+                  textDirection: TextDirection.rtl,
+                ),
+              ),
+            )
+
           ],
         ),
       ),
